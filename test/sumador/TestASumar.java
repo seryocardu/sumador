@@ -85,7 +85,7 @@ class TestASumar {
 	 * @return void
 	 */
     public void ASumar3(String numero3) {
-        this.valor_inicial3 = numero3;
+        this.setValor_inicial3(numero3);
     }
     
     /**
@@ -142,6 +142,16 @@ class TestASumar {
  	
 
 }
+
+
+	public String getValor_inicial3() {
+		return valor_inicial3;
+	}
+
+
+	public void setValor_inicial3(String valor_inicial3) {
+		this.valor_inicial3 = valor_inicial3;
+	}
 
 
 
